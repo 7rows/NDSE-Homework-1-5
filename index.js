@@ -38,7 +38,7 @@ http.get(urlWithCity, (res) => {
                 `City = ${ location.name }`
             );
             console.log(`Weather: ${ current.temperature }℃`)
-            console.log(`Wind Speed: ${ current.wind_speed: }`)
+            console.log(`Wind Speed: ${ current.wind_speed }`)
             console.log(`Pressure: ${ current.pressure }`)
             console.log(`Humidity: ${ current.humidity }%`)
         })
