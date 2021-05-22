@@ -1,7 +1,6 @@
 require('dotenv').config()
-const HOST = process.env.ENDPOINT
+const ENDPOINT = 'http://api.weatherstack.com'
 const KEY = process.env.API_WEATHER_KEY
 module.exports = {
-    URL:`${HOST}/current?access_key=${KEY}&units=m`
+    URL:`${ENDPOINT}/current?access_key=${KEY}&units=m`
 }
-
